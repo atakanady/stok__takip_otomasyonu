@@ -230,6 +230,7 @@ namespace stok_programi
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "KULLANICI KAYIT";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // register
             // 

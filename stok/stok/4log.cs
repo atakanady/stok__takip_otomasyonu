@@ -23,7 +23,7 @@ namespace stok_programi
         }
         void veriCek()
         {
-            con = new SqlConnection("server=.; Initial Catalog=data; User Id=atakn; password=Atakan!!;");
+            con = new SqlConnection("server=.; Initial Catalog=data; Integrated Security=True;");
             da = new SqlDataAdapter("Select *From stok_log ORDER BY id DESC ", con);
             ds = new DataSet();
             con.Open();

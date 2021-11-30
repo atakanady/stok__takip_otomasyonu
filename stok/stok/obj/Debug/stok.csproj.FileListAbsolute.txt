@@ -99,3 +99,17 @@ C:\Users\HP\Desktop\stok\stok\obj\Debug\stok_programi.log.resources
 C:\Users\HP\Desktop\stok\stok\obj\Debug\stok_programi.qrCode.resources
 C:\Users\HP\Desktop\stok\stok\obj\Debug\stok_programi.login.en.resources
 C:\Users\HP\Desktop\stok\stok\obj\Debug\stok.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\stok\stok\bin\Debug\AForge.dll
+C:\Users\HP\Desktop\stok\stok\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\HP\Desktop\stok\stok\bin\Debug\AForge.Video.dll
+C:\Users\HP\Desktop\stok\stok\bin\Debug\zxing.dll
+C:\Users\HP\Desktop\stok\stok\bin\Debug\zxing.presentation.dll
+C:\Users\HP\Desktop\stok\stok\bin\Debug\AForge.xml
+C:\Users\HP\Desktop\stok\stok\bin\Debug\AForge.Video.xml
+C:\Users\HP\Desktop\stok\stok\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\HP\Desktop\stok\stok\bin\Debug\zxing.xml
+C:\Users\HP\Desktop\stok\stok\bin\Debug\zxing.presentation.xml
+C:\Users\HP\Desktop\stok\stok\obj\Debug\stok_programi._6Barkod.resources
+C:\Users\HP\Desktop\stok\stok\obj\Debug\UserControl1.g.cs
+C:\Users\HP\Desktop\stok\stok\obj\Debug\stok_programi_MarkupCompile.cache
+C:\Users\HP\Desktop\stok\stok\obj\Debug\stok_programi_MarkupCompile.lref

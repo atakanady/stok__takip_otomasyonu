@@ -15,7 +15,7 @@ namespace stok_programi
 {
     public partial class qrCode : Form
     {
-        public SqlConnection bag = new SqlConnection(@"Data Source=.;Initial Catalog=data; User Id=atakn; password=Atakan!!;");
+        public SqlConnection bag = new SqlConnection(@"Data Source=.;Initial Catalog=data; Integrated Security=True;");
 
         public qrCode()
         {

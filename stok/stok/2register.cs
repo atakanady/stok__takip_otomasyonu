@@ -24,7 +24,7 @@ namespace stok_programi
         void MusteriGetir()
         {
             //database ile bağlantı metodu
-            baglanti = new SqlConnection("server=.;Initial Catalog=data; User Id=atakn; password=Atakan!!;");
+            baglanti = new SqlConnection("server=.;Initial Catalog=data;Integrated Security=True;");
             baglanti.Open();
             eth = new SqlDataAdapter("SELECT *FROM giiris", baglanti);
             baglanti.Close();
@@ -104,6 +104,11 @@ namespace stok_programi
             login frm = new login();
             frm.Show();
             this.Hide();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

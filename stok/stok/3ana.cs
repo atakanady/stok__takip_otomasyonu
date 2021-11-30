@@ -11,9 +11,10 @@ using System.IO;
 
 namespace stok_programi
 {
+
     public partial class Form1 : Form
     {
-        public SqlConnection bag = new SqlConnection(@"Data Source=.;Initial Catalog=data; User Id=atakn; password=Atakan!!;");
+        public SqlConnection bag = new SqlConnection(@"Data Source=.;Initial Catalog=data;Integrated Security=True; ");
         public Form1()
         {
             InitializeComponent();
@@ -378,6 +379,12 @@ namespace stok_programi
         private void textBox8_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Lütfen Ürün Detaylarını Eksiksiz Giriniz.");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _6Barkod frm = new _6Barkod();
+            frm.Show();
         }
 
         private void btnStokGuncelle_Click(object sender, EventArgs e)

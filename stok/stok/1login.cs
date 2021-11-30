@@ -30,7 +30,7 @@ namespace stok_programi
            
 
             string sorgu = "SELECT * FROM  giiris where Kullanici=@Kullanici AND parola=@parola";
-            con = new SqlConnection("server=LAPTOP-RGLCJUS9; Initial Catalog=data; User Id=atakn; password=Atakan!!;");
+            con = new SqlConnection("server=.; Initial Catalog=data; Integrated Security=True;");
             cmd = new SqlCommand(sorgu, con);
             cmd.Parameters.AddWithValue("@Kullanici", textBox1.Text);
             cmd.Parameters.AddWithValue("@parola", textBox2.Text);
@@ -81,5 +81,9 @@ namespace stok_programi
             this.Hide();
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
